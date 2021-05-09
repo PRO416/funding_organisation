@@ -1,0 +1,20 @@
+nav {
+  height: 10vh;
+  width: 100vw;
+  //background: rgb(16, 40, 90);
+  display: grid;
+  place-items: center;
+
+  ul {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+
+    li {
+      font-size: 2em;
+    }
+  }
+}
